@@ -9,6 +9,7 @@
 import { reactive, toRefs } from "vue";
 
 export default {
+  name: "CompositionMethods",
   setup() {
     const state = reactive({
       count: 0,
