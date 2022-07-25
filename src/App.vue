@@ -3,7 +3,8 @@
     <!-- <demo-one />
     <demo-two /> -->
     <!-- <composition-methods /> -->
-    <composition-v-model />
+    <!-- <composition-v-model /> -->
+    <composition-computed />
   </div>
 </template>
 
@@ -11,14 +12,16 @@
 // import DemoOne from "./components/DemoOne.vue";
 // import DemoTwo from "./components/DemoTwo.vue";
 // import CompositionMethods from "./components/Methods.vue";
-import CompositionVModel from "./components/CompositionVModel.vue";
+// import CompositionVModel from "./components/CompositionVModel.vue";
+import CompositionComputed from "./components/CompositionComputed.vue";
 export default {
   name: "App",
   components: {
     // DemoOne,
     // DemoTwo,
     // CompositionMethods,
-    CompositionVModel,
+    // CompositionVModel,
+    CompositionComputed,
   },
 };
 </script>
