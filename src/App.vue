@@ -2,20 +2,23 @@
   <div>
     <!-- <demo-one />
     <demo-two /> -->
-    <composition-methods />
+    <!-- <composition-methods /> -->
+    <composition-v-model />
   </div>
 </template>
 
 <script>
 // import DemoOne from "./components/DemoOne.vue";
 // import DemoTwo from "./components/DemoTwo.vue";
-import CompositionMethods from "./components/Methods.vue";
+// import CompositionMethods from "./components/Methods.vue";
+import CompositionVModel from "./components/CompositionVModel.vue";
 export default {
   name: "App",
   components: {
     // DemoOne,
     // DemoTwo,
-    CompositionMethods,
+    // CompositionMethods,
+    CompositionVModel,
   },
 };
 </script>
