@@ -7,7 +7,8 @@
     <!-- <composition-computed /> -->
     <!-- <composition-watchers /> -->
     <!-- <parent-component /> -->
-    <composition-template-refs />
+    <!-- <composition-template-refs /> -->
+    <person-component />
   </div>
 </template>
 
@@ -19,7 +20,8 @@
 // import CompositionComputed from "./components/CompositionComputed.vue";
 // import CompositionWatchers from "./components/CompositionWatchers.vue";
 // import ParentComponent from "./components/Parent.vue";
-import CompositionTemplateRefs from "./components/CompositionTemplateRefs.vue";
+// import CompositionTemplateRefs from "./components/CompositionTemplateRefs.vue";
+import PersonComponent from "./components/Person.vue";
 export default {
   name: "App",
   components: {
@@ -30,7 +32,8 @@ export default {
     // CompositionComputed,
     // CompositionWatchers,
     // ParentComponent,
-    CompositionTemplateRefs,
+    // CompositionTemplateRefs,
+    PersonComponent,
   },
 };
 </script>
