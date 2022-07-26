@@ -4,7 +4,8 @@
     <demo-two /> -->
     <!-- <composition-methods /> -->
     <!-- <composition-v-model /> -->
-    <composition-computed />
+    <!-- <composition-computed /> -->
+    <composition-watchers />
   </div>
 </template>
 
@@ -13,7 +14,8 @@
 // import DemoTwo from "./components/DemoTwo.vue";
 // import CompositionMethods from "./components/Methods.vue";
 // import CompositionVModel from "./components/CompositionVModel.vue";
-import CompositionComputed from "./components/CompositionComputed.vue";
+// import CompositionComputed from "./components/CompositionComputed.vue";
+import CompositionWatchers from "./components/CompositionWatchers.vue";
 export default {
   name: "App",
   components: {
@@ -21,7 +23,8 @@ export default {
     // DemoTwo,
     // CompositionMethods,
     // CompositionVModel,
-    CompositionComputed,
+    // CompositionComputed,
+    CompositionWatchers,
   },
 };
 </script>
