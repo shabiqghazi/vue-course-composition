@@ -5,7 +5,8 @@
     <!-- <composition-methods /> -->
     <!-- <composition-v-model /> -->
     <!-- <composition-computed /> -->
-    <composition-watchers />
+    <!-- <composition-watchers /> -->
+    <parent-component />
   </div>
 </template>
 
@@ -15,7 +16,8 @@
 // import CompositionMethods from "./components/Methods.vue";
 // import CompositionVModel from "./components/CompositionVModel.vue";
 // import CompositionComputed from "./components/CompositionComputed.vue";
-import CompositionWatchers from "./components/CompositionWatchers.vue";
+// import CompositionWatchers from "./components/CompositionWatchers.vue";
+import ParentComponent from "./components/Parent.vue";
 export default {
   name: "App",
   components: {
@@ -24,7 +26,8 @@ export default {
     // CompositionMethods,
     // CompositionVModel,
     // CompositionComputed,
-    CompositionWatchers,
+    // CompositionWatchers,
+    ParentComponent,
   },
 };
 </script>
