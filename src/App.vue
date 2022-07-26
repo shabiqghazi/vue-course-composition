@@ -8,7 +8,9 @@
     <!-- <composition-watchers /> -->
     <!-- <parent-component /> -->
     <!-- <composition-template-refs /> -->
-    <person-component />
+    <!-- <person-component /> -->
+    <click-counter />
+    <hover-counter />
   </div>
 </template>
 
@@ -21,7 +23,9 @@
 // import CompositionWatchers from "./components/CompositionWatchers.vue";
 // import ParentComponent from "./components/Parent.vue";
 // import CompositionTemplateRefs from "./components/CompositionTemplateRefs.vue";
-import PersonComponent from "./components/Person.vue";
+// import PersonComponent from "./components/Person.vue";
+import ClickCounter from "./components/ClickCounter.vue";
+import HoverCounter from "./components/HoverCounter.vue";
 export default {
   name: "App",
   components: {
@@ -33,7 +37,9 @@ export default {
     // CompositionWatchers,
     // ParentComponent,
     // CompositionTemplateRefs,
-    PersonComponent,
+    // PersonComponent,
+    ClickCounter,
+    HoverCounter,
   },
 };
 </script>
