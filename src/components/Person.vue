@@ -1,7 +1,11 @@
 <template>
   <div><input type="text" v-model="firstName" /></div>
   <div><input type="text" v-model="lastName" /></div>
-  <person-greet :firstName="firstName" :lastName="lastName" />
+  <person-greet
+    :firstName="firstName"
+    :lastName="lastName"
+    @callName="callName"
+  />
 </template>
 
 <script>
@@ -12,10 +16,14 @@ export default {
   setup() {
     const firstName = ref("");
     const lastName = ref("");
+    const callName = (res) => {
+      alert(`Hello, ${res.value}`);
+    };
 
     return {
       firstName,
       lastName,
+      callName,
     };
   },
   components: {
